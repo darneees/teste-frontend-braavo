@@ -4,33 +4,44 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description"
-            content="Cartão de visita!" />
+            content="Cartão de visita digital de Douglas Sá, Desenvolvedor Front-End e UI/UX Design, apaixonado por criar soluções digitais que unem estética, funcionalidade e acessibilidade." />
         <meta name="author" content="Douglas Santos Sa" />
+        <meta name="keywords" content="Desenvolvedor Front-End, UI/UX Design, Douglas Sá, Portfólio, Desenvolvimento Web, São Paulo" />
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="darneees.github.io/teste-frontend-braavo/">
+        <meta property="og:title" content="Douglas Sá - Desenvolvedor Front-End e UI/UX Design">
+        <meta property="og:description" content="Cartão de visita digital de Douglas Sá, especialista em interfaces modernas e responsivas.">
+
         <!-- importando css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.min.css">
         <!-- importando font -->
         <link
             href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap"
             rel="stylesheet">
-        <title>Teste Front-end Braavo - Douglas</title>
+            <!-- titulo da pagina -->
+        <title>Douglas Sá - Desenvolvedor Front-End e UI/UX Design</title>
     </head>
     <body>
 
-        <article id="code-loader">
+        <!-- animação de load -->
+        <div id="code-loader" role="status" aria-live="polite">
             <span>{</span>
             <span>}</span>
-        </article>
+        </div>
 
+        <!-- conteudo princial -->
         <main>
-            <section id="main-section-image">
+            <section id="main-section-image" aria-labelledby="profile-image-heading">
+                <h2 id="profile-image-heading" class="visually-hidden">Imagem de Perfil de Douglas Sá</h2>
                 <picture>
-                    <img src="assets/img/image.webp" alt="foto">
+                    <img src="assets/img/image.webp" alt="Douglas Sá, desenvolvedor front-end sorrindo.">
                 </picture>
             </section>
 
-            <section id="main-section-container">
+            <section id="main-section-container" aria-labelledby="main-info-heading">
                 <article class="section-content">
-                    <h1>Douglas Sá - Desenvolvedor Front-End e UI/UX Design</h1>
+                    <h1 id="main-info-heading">Douglas Sá - Desenvolvedor Front-End e UI/UX Design</h1>
                     <p>Apaixonado por criar soluções digitais que unem estética,
                         funcionalidade e acessibilidade. Atuo há mais de um ano
                         e meio no desenvolvimento web, entregando interfaces
@@ -38,59 +49,85 @@
                     <p>Estudo inglês em nível básico (A2), com foco em leitura
                         técnica e comunicação em ambientes de trabalho
                         remoto.</p>
-                    <span>
-                        <i data-lucide="map-pin"></i>
+                    <p>
+                        <i data-lucide="map-pin" aria-hidden="true"></i>
                         São Paulo - SP
-                    </span>
+                    </p>
                 </article>
 
-                <ul class="section-list-icons">
-                    <li>
-                        <a
-                            class="link" alt="LinkedIn" title="LinkedIn"
-                            href="https://www.linkedin.com/in/douglas-santos-sa/"
-                            rel="noopener noreferrer" target="_blank">
-                            <i class="icon" data-lucide="linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a
-                            class="link" alt="GitHub" title="GitHub"
-                            href="https://github.com/darneees"
-                            rel="noopener noreferrer" target="_blank">
-                            <i class="icon" data-lucide="github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            class="link" alt="Instagram" title="Instagram"
-                            href="https://www.instagram.com/comunidadepretodev/"
-                            rel="noopener noreferrer" target="_blank">
-                            <i class="icon" data-lucide="instagram"></i></a>
-                    </li>
-                    <li>
-                        <a
-                            class="link" alt="Bento" title="Bento.me"
-                            href="https://bento.me/darneees"
-                            rel="noopener noreferrer" target="_blank">
-                            <i class="icon" data-lucide="external-link"></i>
-                        </a>
-                    </li>
-                </ul>
+                <nav aria-label="Links para redes sociais e portfólio">
+                    <ul class="section-list-icons">
+                        <li>
+                            <a
+                                class="link"
+                                aria-label="LinkedIn de Douglas Sá"
+                                title="LinkedIn"
+                                href="https://www.linkedin.com/in/douglas-santos-sa/"
+                                rel="noopener noreferrer" target="_blank">
+                                <i class="icon" data-lucide="linkedin" aria-hidden="true"></i>
+                                <span class="visually-hidden">LinkedIn</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a
+                                class="link"
+                                aria-label="GitHub de Douglas Sá"
+                                title="GitHub"
+                                href="https://github.com/darneees"
+                                rel="noopener noreferrer" target="_blank">
+                                <i class="icon" data-lucide="github" aria-hidden="true"></i>
+                                <span class="visually-hidden">GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="link"
+                                aria-label="Instagram da Comunidade PretoDev"
+                                title="Instagram"
+                                href="https://www.instagram.com/comunidadepretodev/"
+                                rel="noopener noreferrer" target="_blank">
+                                <i class="icon" data-lucide="instagram" aria-hidden="true"></i>
+                                <span class="visually-hidden">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="link"
+                                aria-label="Bento.me de Douglas Sá"
+                                title="Bento.me"
+                                href="https://bento.me/darneees"
+                                rel="noopener noreferrer" target="_blank">
+                                <i class="icon" data-lucide="external-link" aria-hidden="true"></i>
+                                <span class="visually-hidden">Bento.me</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </section>
         </main>
 
-        <!-- importando biblioteca de icones -->
-        <!-- Production version -->
+        <!-- importando icones -->
         <script src="https://unpkg.com/lucide@latest"></script>
-        <script>
-            lucide.createIcons();
-
-            setTimeout(function () {
-                $('#code-loader').fadeToggle();
-            }, 1000);
-        </script>
-        <!-- loader -->
+        <!-- código javascript -->
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                lucide.createIcons();
+
+                if (window.jQuery) {
+                    setTimeout(function () {
+                        $('#code-loader').fadeToggle();
+                    }, 1000);
+                } else {
+                    setTimeout(function () {
+                        var loader = document.getElementById('code-loader');
+                        if (loader) {
+                            loader.style.display = 'none';
+                        }
+                    }, 1000);
+                }
+            });
+        </script>
     </body>
 </html>
