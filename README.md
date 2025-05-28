@@ -42,20 +42,19 @@ Design e Layout: Estética visual, consistência de design, responsividade.
 
 ## 🎨 Paleta de Cores
 
-| Cor         | Código Hex   | Significado |
-|------------|------------|------------|
-| 🟠 **..** | `#` | .. |
-| 🟡 **..** | `#` | .. |
-| 🔵 **..** | `#` | .. |
+| Cor         | Código Hex   |
+|------------|------------|
+| ⚪ **branco** | `#ffffff` |
+| 🟢 **Verde escuro** | `#063439` |
+| 🔘 **Cinza** | `#rgba(70, 74, 82, 0.54)` |
 
 ## 🔠 Hierarquia Tipográfica
 
 | Elemento         | Fonte       | Peso  |
 |-----------------|------------|------|
-| **Título Principal (H1)** | Raleway | ExtraBold (800) |
-| **Subtítulo (H2, H3)** | Montserrat | SemiBold (400) |
-| **Parágrafo (P)** | Montserrat | Regular (400) |
-| **Botões (CTA)** | Raleway | Bold (500) |
+| **Título Principal (H1)** | Satoshi | Medium (500) |
+| **Subtítulo (H2, H3)** | Satoshi | Regular (400) |
+| **Parágrafo (P)** | Satoshi | Light (300) |
 
 ---
 
@@ -63,13 +62,23 @@ Design e Layout: Estética visual, consistência de design, responsividade.
 
 - ``HTML5``
 - ``CSS3``
+- ``JAVASCRIPT``
 
 ---
 
 ## 📂 Estrutura de Pastas
 
 ```
-estrutura aqui
+├── assets/                                     # Arquivos estáticos (imagens, estilos, etc.)
+│   ├── css/                                    # Folhas de estilo CSS
+│   │   └── style.css                           # Arquivo principal de estilos
+│   └── img/                                    # Imagens do projeto
+│       └── image.webp                          # Imagem de exemplo
+├── node_modules/                               # Dependências instaladas via npm
+├── index.html                                  # Arquivo HTML principal da aplicação
+├── package-lock.json                           # Arquivo que trava as versões das dependências
+├── package.json                                # Arquivo de configuração do projeto (scripts, dependências, etc.)
+├── README.md                                   # Documentação do projeto
 ```
 
 ---
