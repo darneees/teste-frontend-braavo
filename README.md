@@ -62,7 +62,6 @@ Design e Layout: Estética visual, consistência de design, responsividade.
 
 - ``HTML5``
 - ``CSS3``
-- ``JAVASCRIPT``
 
 ---
 
@@ -84,3 +83,8 @@ Design e Layout: Estética visual, consistência de design, responsividade.
 ---
 
 ## 🖼️ Telas
+
+![screenshot](https://github.com/user-attachments/assets/4666873a-cb80-47b4-89d6-a5137941e172)
+
+
+
